@@ -1,0 +1,75 @@
+body, html{
+    height: 95%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.bg-image {
+    /* Full height */
+    height: 100%;
+  
+    /* Center */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    /* Images used */
+.image { background-image: url(images/designermcomputer.png); }
+
+/* Position text in the middle of the page/image */
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity */
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border: 5px solid #f1f1f1;
+    position: fixed; /* Stay fixed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+  }
+
+h1{
+   font-family: 'Courier New', Courier, monospace;
+   font-style: oblique;
+   font-size: 20px;
+   color: antiquewhite;
+}
+
+/* Profile */
+.fotoku{
+    text-decoration: blue;
+    border: solid 2px greenyellow;
+    margin: 30px 150px;
+    padding: 30px 30px 15px 70px;
+}
+
+.main-profile{
+    background-color: rgba(238, 236, 236, 0.432);
+}
+.profile{
+    text-align: center;
+    float: initial;
+    margin: 0px 30px ;
+    padding: 50px;
+  font-family: cursive;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: deepskyblue;
+}
+
+

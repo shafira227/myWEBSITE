@@ -1,0 +1,29 @@
+body{
+    background-image: url('images/fllawers.jpg');
+    width: 80%;
+    background-color: rgba(245, 245, 245, 0.548);
+    margin: auto;
+    padding: 120px 80px;
+}
+
+.laporan1{
+    width: 90%;
+    background-color: rgba(230, 138, 138, 0.538);
+    margin: 0;
+    padding: 80px 80px;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    color: seashell;
+    font-family: cursive;
+}
+
+p{
+    color: seashell
+}
